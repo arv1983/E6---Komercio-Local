@@ -21,4 +21,7 @@ def hello():
         page = int(page)
         per_page = int(per_page)
         return jsonify(produtos[per_page * page - per_page:per_page * page])
+    else:
+        return jsonify(produtos)
+    
     

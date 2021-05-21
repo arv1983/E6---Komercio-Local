@@ -28,5 +28,6 @@ produtos = [
     {"id": 27, "name": "furadeira", "price": 99.15},
     {"id": 28, "name": "ferro de passar", "price": 55.80},
     {"id": 29, "name": "coberta", "price": 55.99},
-    {"id": 30, "name": "sofa", "price": 600.15}
+    {"id": 30, "name": "sofa", "price": 600.15},
+    {"id": 31, "name": "sofa", "price": 600.15}
 ]
