@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/products/<int:product>')
-def hello_flask(product):
+def list_products(product):
     for produto_id in produtos:
         if produto_id['id'] == product:
             return jsonify(produto_id)
@@ -14,7 +14,7 @@ def hello_flask(product):
 
 
 @app.route('/products/')
-def hello():
+def get_product():
     page = request.args.get('page')
     per_page = request.args.get('per_page')
     if page and per_page:
